@@ -4,8 +4,8 @@ An all-in-one healthcare mobile application developed using Java and Firebase Cl
 # 📱 Features
 *** 👨‍⚕️ Doctor Booking
 1. Search and view doctor profiles by specialization
-2.Book appointments directly through the app
-3.Get appointment confirmation via notification
+2. Book appointments directly through the app
+3. Get appointment confirmation via notification
 
 *** 💊 Online Medicine Purchase
 1. Browse or search for medicines
