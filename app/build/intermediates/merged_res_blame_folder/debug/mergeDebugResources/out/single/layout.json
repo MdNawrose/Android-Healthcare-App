@@ -1,0 +1,66 @@
+[
+    {
+        "merged": "com.example.mediapp-mergeDebugResources-54:/layout/activity_login.xml",
+        "source": "com.example.mediapp-main-57:/layout/activity_login.xml"
+    },
+    {
+        "merged": "com.example.mediapp-mergeDebugResources-54:/layout/activity_register.xml",
+        "source": "com.example.mediapp-main-57:/layout/activity_register.xml"
+    },
+    {
+        "merged": "com.example.mediapp-mergeDebugResources-54:/layout/activity_home.xml",
+        "source": "com.example.mediapp-main-57:/layout/activity_home.xml"
+    },
+    {
+        "merged": "com.example.mediapp-mergeDebugResources-54:/layout/fragment_dashboard.xml",
+        "source": "com.example.mediapp-main-57:/layout/fragment_dashboard.xml"
+    },
+    {
+        "merged": "com.example.mediapp-mergeDebugResources-54:/layout/activity_main.xml",
+        "source": "com.example.mediapp-main-57:/layout/activity_main.xml"
+    },
+    {
+        "merged": "com.example.mediapp-mergeDebugResources-54:/layout/product_item_layout.xml",
+        "source": "com.example.mediapp-main-57:/layout/product_item_layout.xml"
+    },
+    {
+        "merged": "com.example.mediapp-mergeDebugResources-54:/layout/activity_doctor.xml",
+        "source": "com.example.mediapp-main-57:/layout/activity_doctor.xml"
+    },
+    {
+        "merged": "com.example.mediapp-mergeDebugResources-54:/layout/activity_doctor_detail.xml",
+        "source": "com.example.mediapp-main-57:/layout/activity_doctor_detail.xml"
+    },
+    {
+        "merged": "com.example.mediapp-mergeDebugResources-54:/layout/activity_product_detail.xml",
+        "source": "com.example.mediapp-main-57:/layout/activity_product_detail.xml"
+    },
+    {
+        "merged": "com.example.mediapp-mergeDebugResources-54:/layout/activity_cart.xml",
+        "source": "com.example.mediapp-main-57:/layout/activity_cart.xml"
+    },
+    {
+        "merged": "com.example.mediapp-mergeDebugResources-54:/layout/item_cart.xml",
+        "source": "com.example.mediapp-main-57:/layout/item_cart.xml"
+    },
+    {
+        "merged": "com.example.mediapp-mergeDebugResources-54:/layout/item_doctor.xml",
+        "source": "com.example.mediapp-main-57:/layout/item_doctor.xml"
+    },
+    {
+        "merged": "com.example.mediapp-mergeDebugResources-54:/layout/fragment_home.xml",
+        "source": "com.example.mediapp-main-57:/layout/fragment_home.xml"
+    },
+    {
+        "merged": "com.example.mediapp-mergeDebugResources-54:/layout/item_product.xml",
+        "source": "com.example.mediapp-main-57:/layout/item_product.xml"
+    },
+    {
+        "merged": "com.example.mediapp-mergeDebugResources-54:/layout/fragment_notifications.xml",
+        "source": "com.example.mediapp-main-57:/layout/fragment_notifications.xml"
+    },
+    {
+        "merged": "com.example.mediapp-mergeDebugResources-54:/layout/activity_pharmacy.xml",
+        "source": "com.example.mediapp-main-57:/layout/activity_pharmacy.xml"
+    }
+]

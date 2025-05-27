@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/mainLayout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="12dp"
+    android:background="@android:color/white">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="8dp">
+
+        <!-- Search Bar -->
+        <EditText
+            android:id="@+id/searchBar"
+            android:layout_width="0dp"
+            android:layout_height="50dp"
+            android:hint="Search medicine..."
+            android:paddingStart="40dp"
+            android:paddingEnd="12dp"
+            android:background="@drawable/search_background"
+            android:drawableStart="@drawable/ic_search_24"
+            android:drawablePadding="10dp"
+            android:inputType="text"
+            android:singleLine="true"
+            android:layout_marginEnd="8dp"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintEnd_toStartOf="@+id/cartIcon"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintBottom_toBottomOf="parent"/>
+
+        <!-- Cart Icon -->
+        <ImageView
+            android:id="@+id/cartIcon"
+            android:layout_width="48dp"
+            android:layout_height="48dp"
+            android:padding="8dp"
+            android:src="@drawable/ic_cart"
+            android:contentDescription="Cart"
+            android:clickable="true"
+            android:focusable="true"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintBottom_toBottomOf="parent"/>
+
+        <!-- Notification Dot -->
+        <View
+            android:id="@+id/cartNotificationDot"
+            android:layout_width="10dp"
+            android:layout_height="10dp"
+            android:background="@android:color/holo_red_dark"
+            android:layout_marginTop="4dp"
+            android:layout_marginEnd="4dp"
+            android:visibility="gone"
+            android:layout_gravity="center"
+            android:backgroundTint="@android:color/holo_red_dark"
+            app:layout_constraintTop_toTopOf="@id/cartIcon"
+            app:layout_constraintEnd_toEndOf="@id/cartIcon"
+            android:layout_marginRight="4dp"
+            android:layout_marginBottom="4dp"
+            android:layout_marginStart="4dp"
+            android:layout_marginLeft="4dp"
+            android:elevation="4dp"
+            android:layout_margin="2dp"
+            android:scaleX="1"
+            android:scaleY="1"
+            android:translationZ="2dp"
+            android:shape="oval"/>
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+    <!-- Product List -->
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/productRecyclerView"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:layout_marginTop="10dp"
+        android:contentDescription="List of medicines available for purchase" />
+
+</LinearLayout>

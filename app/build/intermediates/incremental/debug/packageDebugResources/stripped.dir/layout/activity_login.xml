@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:fillViewport="true"
+    android:background="#FFFFFF"
+    tools:context=".LoginActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:orientation="vertical"
+        android:padding="24dp">
+
+        <ImageView
+            android:id="@+id/logo"
+            android:layout_width="120dp"
+            android:layout_height="120dp"
+            android:src="@drawable/logo"
+            android:layout_marginTop="32dp"
+            android:layout_marginBottom="16dp"
+            android:contentDescription="App Logo" />
+
+        <EditText
+            android:id="@+id/email"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Email"
+            android:inputType="textEmailAddress"
+            android:drawableStart="@drawable/ic_email"
+            android:drawablePadding="10dp"
+            android:padding="12dp"
+            android:background="@drawable/edittext_background"
+            android:layout_marginBottom="16dp" />
+
+        <EditText
+            android:id="@+id/password"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Password"
+            android:inputType="textPassword"
+            android:drawableStart="@drawable/ic_key"
+            android:drawablePadding="10dp"
+            android:padding="12dp"
+            android:background="@drawable/edittext_background"
+            android:layout_marginBottom="8dp" />
+
+        <TextView
+            android:id="@+id/createAccount"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Create Account"
+            android:textColor="#3B82F6"
+            android:textSize="14sp" />
+
+        <TextView
+            android:id="@+id/forgotPassword"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Forgot Password?"
+            android:textColor="#3B82F6"
+            android:textSize="14sp" />
+
+        <Button
+            android:id="@+id/loginButton"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Login"
+            android:textColor="#FFFFFF"
+            android:background="@drawable/rounded_button" />
+
+    </LinearLayout>
+</ScrollView>
