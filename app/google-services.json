@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "390139963510",
+    "project_id": "mediapp-17014",
+    "storage_bucket": "mediapp-17014.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:390139963510:android:2d2647e82e143f30585757",
+        "android_client_info": {
+          "package_name": "com.example.mediapp"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBX8bonxTnvAtMsvUZUswaLQ2tplyhO7RE"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
