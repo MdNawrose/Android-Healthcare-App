@@ -2,18 +2,17 @@
 
 An all-in-one healthcare mobile application developed using Java and Firebase Cloud Services in Android Studio. This app enables users to book doctor appointments, buy medicines online, and manage their healthcare needs from their smartphones.
 
-📱 Features
-*** 👨‍⚕️ Doctor Booking
+# 📱 Features
+01. 👨‍⚕️ Doctor Booking
+👉 Search and view doctor profiles by specialization
+👉 Book appointments directly through the app
+👉 Get appointment confirmation via notification
+# 💊 Online Medicine Purchase
+👉 Browse or search for medicines
+👉 View detailed descriptions, usage, and prices
+👉 Add to cart and order medicines
 
-Search and view doctor profiles by specialization
-Book appointments directly through the app
-Get appointment confirmation via notification
-*** 💊 Online Medicine Purchase
+🔒 Secure Authentication Firebase Authentication for secure login and registration
 
-Browse or search for medicines
-View detailed descriptions, usage, and prices
-Add to cart and order medicines
-*** 🔒 Secure Authentication Firebase Authentication for secure login and registration
-
-🔧 Tech Stack
+# 🔧 Tech Stack
 Technology Description Java Backend logic and Android components Android Studio IDE for Android development Firebase Auth User authentication Firebase Firestore Real-time cloud database Firebase Storage Upload and store prescriptions/docs Firebase Cloud Messaging Push notifications
