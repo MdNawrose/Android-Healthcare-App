@@ -1,4 +1,4 @@
-# #Android-Healthcare-App
+## Android-Healthcare-App
 
 An all-in-one healthcare mobile application developed using Java and Firebase Cloud Services in Android Studio. This app enables users to book doctor appointments, buy medicines online, and manage their healthcare needs from their smartphones.
 
@@ -7,7 +7,9 @@ An all-in-one healthcare mobile application developed using Java and Firebase Cl
 👉 Search and view doctor profiles by specialization
 👉 Book appointments directly through the app
 👉 Get appointment confirmation via notification
-# 💊 Online Medicine Purchase
+
+
+02.💊 Online Medicine Purchase
 👉 Browse or search for medicines
 👉 View detailed descriptions, usage, and prices
 👉 Add to cart and order medicines
