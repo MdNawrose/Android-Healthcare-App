@@ -14,6 +14,7 @@ An all-in-one healthcare mobile application developed using Java and Firebase Cl
 👉 View detailed descriptions, usage, and prices
 👉 Add to cart and order medicines
 
+
 🔒 Secure Authentication Firebase Authentication for secure login and registration
 
 # 🔧 Tech Stack
