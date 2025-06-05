@@ -12,7 +12,6 @@ import androidx.appcompat.app.AppCompatActivity;
 import com.google.firebase.auth.FirebaseAuth;
 
 
-
 public class RegisterActivity extends AppCompatActivity {
 
     EditText editTextEmail, editTextPassword;
